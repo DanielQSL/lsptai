@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="泰国老司机推荐榜单 - 精选日式按摩,泰浴">
-    <meta name="keywords" content="泰国按摩,日式按摩,按摩店推荐,日按,泰浴">
-    <title>泰国老司机推荐榜单 - LSPTAI</title>
+    <meta name="description" content="泰国老司机暗黑推荐榜单 - 精选日式按摩,泰浴">
+    <meta name="keywords" content="泰国按摩,日式按摩,按摩店推荐,日按,泰浴,暗黑">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>泰国老司机暗黑推荐榜单</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @media (prefers-color-scheme: light) {
@@ -26,6 +27,7 @@
                 --text: #FFFFFF;
             }
         }
+        [x-cloak] { display: none !important; }
     </style>
 </head>
 <body class="bg-[var(--background)] text-[var(--text)]" x-data="{
@@ -38,15 +40,15 @@
     data: {
         bangkok: {
             massage: [
-                {id: 1, name: 'Canary massage', address: '19, 15 Soi Sukhumvit 19, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand', features: '角色扮演', rating: 4.7, image: 'https://free4.yunpng.top/2025/04/28/680f3efac1906.png', phone: '+66640184660'},
-                {id: 2, name: 'Vovo Sukhumvit33', address: '9, 19 ถนน สุขุมวิท Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand', features: '', rating: 4.3, image: 'https://free4.yunpng.top/2025/04/28/680f3f17ba108.png', phone: '+66909672200'},
-                {id: 3, name: 'Aries Massage Bangkok', address: 'เลขที่245/6 Soi Sukhumvit 31, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand', features: '服务好', rating: 4.9, image: 'https://free4.yunpng.top/2025/04/28/680f3fcf93934.png', phone: '+66849979822'},
-                {id: 4, name: '102 Massage Bangkok', address: 'Sukhumvit 24 Alley, Khwaeng Khlong Tan, Khet Khlong Toei, Bangkok 10110, Thailand', features: '', rating: 4.1, image: 'https://free4.yunpng.top/2025/04/28/680f41248746e.png', phone: '+6622594528'},
-                {id: 5, name: 'Addict Massage', address: '1 13-1/14 Sukhumvit 24 Alley, Khlong Tan, Khlong Toei, Bangkok 10110, Thailand', features: '空姐制服', rating: 4.1, image: 'https://free4.yunpng.top/2025/04/28/680f415edea5f.png', phone: '+66816632469'},
-                {id: 6, name: 'Orient Massage', address: '1/9 Sukhumvit Rd, Khlong Tan, Khlong Toei, Bangkok 10110, Thailand Phong', features: '', rating: 4.1, image: 'https://free4.yunpng.top/2025/04/28/680f422db20a4.png', phone: '+6622598232'},
-                {id: 7, name: 'Mitu Soap', address: '96, 7 Soi Sukhumvit 23, Klongtan-nua, Watthana, Bangkok 10110, Thailand', features: '', rating: 4.2, image: 'https://free4.yunpng.top/2025/04/28/680f42a4dc090.png', phone: '+66958510672'},
-                {id: 8, name: 'Boss Massage', address: 'Sukhumvit 24/1 Alley, Khlong Tan, Khlong Toei, Bangkok 10110, Thailand', features: '', rating: 4.6, image: 'https://free4.yunpng.top/2025/04/28/680f43d23d844.png', phone: '+66899177074'},
-                {id: 9, name: '101 Premier Massage', address: '10, 16 Soi Sukhumvit 26, Khlong Tan, Khlong Toei, Bangkok 10110, Thailand', features: '', rating: 3.9, image: 'https://free4.yunpng.top/2025/04/28/680f4367579d3.png', phone: '+66807822012'}
+                {id: 1, name: 'Canary massage', address: '19, 15 Soi Sukhumvit 19, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand', features: '角色扮演', rating: 4.7, image: 'https://free4.yunpng.top/2025/04/28/680f747e9fdec.png', phone: '+66640184660'},
+                {id: 2, name: 'Vovo Sukhumvit33', address: '9, 19 ถนน สุขุมวิท Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand', features: '', rating: 4.3, image: 'https://free4.yunpng.top/2025/04/28/680f747d76990.png', phone: '+66909672200'},
+                {id: 3, name: 'Aries Massage Bangkok', address: 'เลขที่245/6 Soi Sukhumvit 31, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand', features: '服务好', rating: 4.9, image: 'https://free4.yunpng.top/2025/04/28/680f74d87f9be.png', phone: '+66849979822'},
+                {id: 4, name: '102 Massage Bangkok', address: 'Sukhumvit 24 Alley, Khwaeng Khlong Tan, Khet Khlong Toei, Bangkok 10110, Thailand', features: '', rating: 4.1, image: 'https://free4.yunpng.top/2025/04/28/680f750847a01.png', phone: '+6622594528'},
+                {id: 5, name: 'Addict Massage', address: '1 13-1/14 Sukhumvit 24 Alley, Khlong Tan, Khlong Toei, Bangkok 10110, Thailand', features: '空姐制服', rating: 4.1, image: 'https://free4.yunpng.top/2025/04/28/680f74d851db0.png', phone: '+66816632469'},
+                {id: 6, name: 'Orient Massage', address: '1/9 Sukhumvit Rd, Khlong Tan, Khlong Toei, Bangkok 10110, Thailand Phong', features: '', rating: 4.1, image: 'https://free4.yunpng.top/2025/04/28/680f750782901.png', phone: '+6622598232'},
+                {id: 7, name: 'Mitu Soap', address: '96, 7 Soi Sukhumvit 23, Klongtan-nua, Watthana, Bangkok 10110, Thailand', features: '', rating: 4.2, image: 'https://free4.yunpng.top/2025/04/28/680f7527e249b.png', phone: '+66958510672'},
+                {id: 8, name: 'Boss Massage', address: 'Sukhumvit 24/1 Alley, Khlong Tan, Khlong Toei, Bangkok 10110, Thailand', features: '', rating: 4.6, image: 'https://free4.yunpng.top/2025/04/28/680f754bcad07.png', phone: '+66899177074'},
+                {id: 9, name: '101 Premier Massage', address: '10, 16 Soi Sukhumvit 26, Khlong Tan, Khlong Toei, Bangkok 10110, Thailand', features: '', rating: 3.9, image: 'https://free4.yunpng.top/2025/04/28/680f7527c8281.png', phone: '+66807822012'}
             ],
             restaurant: []
         },
@@ -61,7 +63,7 @@
 }">
     <header class="fixed top-0 w-full bg-[var(--surface)] shadow-md z-50">
         <nav class="container mx-auto px-4 py-4">
-            <h1 class="text-2xl md:text-3xl font-bold text-[var(--primary)]">LSPTAI - 泰国老司机推荐榜单</h1>
+            <h1 class="text-2xl md:text-3xl font-bold text-[var(--primary)]">LSPTAI - 泰国老司机暗黑推荐榜单</h1>
         </nav>
     </header>
 
@@ -151,6 +153,7 @@
 
     <!-- 弹窗组件 -->
     <div x-show="showModal" 
+        x-cloak
         class="fixed inset-0 z-50 overflow-y-auto"
         x-transition:enter="ease-out duration-300"
         x-transition:enter-start="opacity-0"
@@ -189,7 +192,11 @@
                             </div>
                             <div>
                                 <h3 class="font-bold text-lg mb-2">地址</h3>
-                                <p class="text-gray-600 dark:text-gray-400" x-text="selectedItem.address"></p>
+                                <a :href="'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(selectedItem.name)" 
+                                   target="_blank" 
+                                   class="text-[var(--primary)] hover:underline" 
+                                   x-text="selectedItem.address">
+                                </a>
                             </div>
                             <div>
                                 <h3 class="font-bold text-lg mb-2">联系电话</h3>
@@ -211,7 +218,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="text-center md:text-left">
                     <h3 class="text-xl font-bold text-[var(--primary)] mb-4">关于我们</h3>
-                    <p class="text-gray-600 dark:text-gray-400">LSPTAI.com 致力于为泰国老司机们提供相关信息收集。如信息错误或需要新增信息请联系我们</p>
+                    <p class="text-gray-600 dark:text-gray-400">LSPTAI.com 致力于为泰国老司机们的暗黑旅游提供相关信息收集，方便大家查询。如信息错误或需要新增信息请联系我们，同时也欢迎大家讨论和咨询</p>
                 </div>
                 <div class="text-center md:text-left">
                     <h3 class="text-xl font-bold text-[var(--primary)] mb-4">联系方式</h3>
